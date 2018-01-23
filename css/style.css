@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2017, 1:57:47 PM
+    Author     : Danso
+*/
+.card{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-header
+{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color:#286090;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color:#fff;
+}
+
+.card-body
+{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-footer
+{
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+ color: red;
+}
